@@ -1,6 +1,5 @@
-body {
-  margin: 0;
-}
+/***************************************/
+/* Header */
 
 header {
   margin: 30px 0 0;
@@ -25,6 +24,9 @@ header {
   margin: 13px 0 0 0;
 }
 
+/***************************************/
+/* Splash */
+
 .splash {
   text-align: center;
   margin: 10% 0 0 0;
@@ -46,6 +48,13 @@ header {
   margin-top: 50px;
 }
 
+/***************************************/
+/* Body */
+
+body {
+  margin: 0;
+}
+
 .page-host {
   margin-top:40px;
 }
@@ -55,7 +64,10 @@ header {
   margin: 5px;
 }
 
-body footer.page-footer {
+/***************************************/
+/* Footer */
+
+.page-footer {
   position: relative;
   padding-top: 35px;
 }

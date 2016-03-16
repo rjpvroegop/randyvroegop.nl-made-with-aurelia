@@ -1,0 +1,30 @@
+<template>
+  <div class="container row">
+    <ul class="collapsible with-header" data-collapsible="accordion" repeat.for="table of pageObject">
+
+      <li class="collection-header">
+        <h4><i class="material-icons red-text text-accent-2c">${table.icon}</i> -- ${table.title}</h4>
+      </li>
+
+      <li repeat.for="row of table.content">
+
+        <div class="collapsible-header">
+          <i class="material-icons right">more_horiz</i> ${row.title}
+        </div>
+
+        <div class="collapsible-body">
+          <div class="container">
+            <h5 class="red-text text-accent-2">${row.content.date}</h5>
+
+            <p if.bind="row.content.type == 'text'">${row.content.content}</p>
+
+            <ul if.bind="row.content.type == 'table'" class="collection">
+              <li repeat.for="text of row.content.content" class="collection-item">${text}</li>
+            </ul>
+            <br />
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</template>

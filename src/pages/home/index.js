@@ -1,3 +1,5 @@
+import 'jquery';
+
 export class Welcome {
   constructor(){
     this.pageObject = this.loadPageObject();

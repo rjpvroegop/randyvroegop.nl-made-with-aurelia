@@ -49,9 +49,6 @@ System.config({
     "github:jspm/nodelibs-util@0.1.0": {
       "util": "npm:util@0.10.3"
     },
-    "github:twbs/bootstrap@3.3.6": {
-      "jquery": "github:components/jquery@2.2.1"
-    },
     "npm:assert@1.3.0": {
       "util": "npm:util@0.10.3"
     },

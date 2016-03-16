@@ -1,0 +1,29 @@
+<template bindable="router">
+  <nav class="red accent-3">
+    <div class="container">
+      <div class="nav-wrapper">
+
+        <a href="index.php" class="waves-effect right brand-logo red accent-2 z-depth-1 right-align">
+          <div class="">
+            <img src="dist/images/face.png" alt="face" class="face left">
+            <p class="white-text right">Randy<br>Vroegop</p>
+          </div>
+        </a>
+
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul class="hide-on-med-and-down left">
+          <li repeat.for="row of router.navigation" class="${row.isActive ? 'active' : ''}">
+            <a href.bind="row.href">
+              <i class="material-icons left red-text text-lighten-3">${row.settings.img}</i>
+              ${row.title}
+            </a>
+          </li>
+        </ul>
+        <ul class="side-nav" id="mobile-demo">
+          <li><a href="sass.html">Sass</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</template>
+

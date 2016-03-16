@@ -1,0 +1,17 @@
+<template>
+  <require from="custom-elements/nav-bar.html"></require>
+  <require from="custom-elements/footer-bar.html"></require>
+
+  <header>
+    <nav-bar router.bind="router"></nav-bar>
+  </header>
+
+  <main class="page-host">
+    <router-view></router-view>
+  </main>
+
+  <footer class="page-footer container grey">
+    <footer-bar router.bind="router"></footer-bar>
+  </footer>
+
+</template>

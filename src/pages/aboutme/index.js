@@ -1,7 +1,7 @@
 import 'jquery';
 
 export class Aboutme {
-  constructor(){
+  constructor() {
     this.pageObject = this.loadPageObject();
   }
 

@@ -1,0 +1,80 @@
+/***************************************/
+/* Header */
+
+header {
+  margin: 30px 0 0;
+}
+
+.brand-logo {
+  height: 94px;
+  width: 260px;
+  line-height: 25px;
+  top: -15px;
+}
+
+.brand-logo p {
+  margin: 22px 15px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.brand-logo img.face {
+  height: 70px;
+  display: inline-block;
+  margin: 13px 0 0 0;
+}
+
+/***************************************/
+/* Splash */
+
+.splash {
+  text-align: center;
+  margin: 10% 0 0 0;
+  box-sizing: border-box;
+}
+
+.splash .message {
+  font-size: 72px;
+  line-height: 72px;
+  text-shadow: rgba(0, 0, 0, 0.5) 0 0 15px;
+  text-transform: uppercase;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.splash .fa-spinner {
+  text-align: center;
+  display: inline-block;
+  font-size: 72px;
+  margin-top: 50px;
+}
+
+/***************************************/
+/* Body */
+
+body {
+  margin: 0;
+}
+
+.container.page-host {
+  margin-top:40px;
+}
+
+.promo {
+  height: 350px;
+  margin: 5px;
+}
+
+/***************************************/
+/* Footer */
+
+.page-footer {
+  position: relative;
+  padding-top: 35px;
+}
+
+.float-footer {
+  padding: 10px;
+  top: -10px;
+  position: absolute;
+  margin: 0;
+}

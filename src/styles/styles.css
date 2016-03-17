@@ -55,7 +55,7 @@ body {
   margin: 0;
 }
 
-.page-host {
+.container.page-host {
   margin-top:40px;
 }
 

@@ -1,0 +1,27 @@
+<template bindable="router">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text float-footer red accent-2 z-depth-3">- more about me -</h5>
+          <br>
+          <p class="grey-text text-lighten-4">Randy Vroegop<br>Heemskerk</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Sitemap</h5>
+          <ul>
+            <li repeat.for="row of router.navigation" class="${row.isActive ? 'active' : ''}">
+              <a class="grey-text text-lighten-3" href.bind="row.href">
+                ${row.title}
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        <p>© 2015 Randy Vroegop</p>
+        <a class="grey-text text-lighten-4 right" href="#/contact">Contact</a>
+      </div>
+    </div>
+</template>
